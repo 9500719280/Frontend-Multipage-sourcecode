@@ -1,38 +1,400 @@
-.App {
-  text-align: center;
+*{
+    box-sizing: border-box;
+}
+.a{
+    text-decoration: none;
+}
+.h1{
+    display: flex;
+    padding: 25px;
+}
+.h2{
+   color: rgb(198, 34, 212);
+   padding-left: 130px; 
+}
+.h3{
+   padding-left: 350px;
+   display: flex;
+   text-decoration: none;
+}
+.h3 div{
+    padding-left: 50px;
+    text-decoration: none;
+}
+.h4{
+    background-image: url(/public/b2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+.h5{
+    padding-left: 660px;
+    font-family: 'Noto Sans'sans-serif;
+    font-size: xx-large;
+    color: white;
+    font-weight: bold;
+       
+    
+    
+}
+.h9{
+    padding-left: 640px;
+    font-family: 'Noto Sans'sans-serif;
+    font-size: xx-large;
+    color: white;
+    font-weight: bold;
+
+}
+.h10{
+    padding-left: 610px;
+    font-family: 'Merriweather', serif;
+    font-size: large;   
+    color: rgb(252, 244, 234);
+}
+.h6{ 
+    background-color: rgb(198, 34, 212);
+    color: white;
+}
+.h7{
+ 
+    padding-top: 100px;
+}
+.h8{
+    padding-left: 660px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.m1{
+    display: flex;
+    margin: 60px;
+}
+.m2{
+    width: 50%;
+}
+.m3{
+    width: 50%;
+    
+}
+.m9{
+   width: 55%;
+   text-align: center;
+}
+.m10{
+    background-color: rgb(247, 237, 225);
+}
+.m4{
+    display: flex;
+}
+.m4 p{
+    color: rgb(158, 152, 192);
+}
+.m5{
+    text-align: center;
+    padding-top: 35px;
+    color: rgb(61, 51, 121);
+}
+.m6{
+    color: rgb(158, 152, 192);
+}
+.m11{
+    color: rgb(38, 27, 102);
+}
+.m7{
+    padding-left:60px ;
+}
+.m8{
+    font-weight: 700;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.f1{
+    padding-bottom: 15px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+
+.c1{
+    display: flex;
+    margin: 60px;
+}
+.c2{
+    width: 50%;
+}
+.c3{
+    width: 50%;
+    padding-left: 40px;
+}
+.c3 p{
+    color: rgb(158, 152, 192);
+}
+.c4{
+    width: 80%;
+    padding: 15px;
+    border: 0px;
+    background-color: rgb(237, 243, 186)
+    
+}
+.c11{
+    padding: 15px 35px 15px 15px;
+    
+    border: 0px;
+    background-color: rgb(237, 243, 186);
+
+}
+.c12{
+    padding: 15px 35px 15px 15px;
+   
+    border: 0px;
+    background-color: rgb(237, 243, 186);
+}
+.c5{
+    display: flex; 
+    width: 80%;
 }
 
-.App-link {
-  color: #61dafb;
+.c6{
+    padding-left: 52px;
+}
+.c7{
+    width: 80%;
+    padding: 10px 0px 100px 15px;
+    border: 0px;
+    background-color: rgb(237, 243, 186);
+}
+.c8{
+    width: 80%;
+    padding: 15px;
+    border: 0px;
+    background-color: rgb(240, 22, 229);
+    color: white;
+}
+.c9{
+    background-color: rgb(252, 244, 234);
+}
+.c10{
+    text-align: center;
+    padding-top: 35px;
+    color: rgb(61, 51, 121);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.c13{
+    font-size:x-large;
+    font-weight: bolder;
+}
+.c14{
+    font-weight: bold;
+}
+
+
+
+
+
+/* portfolio */
+.row1{
+    background-color: rgb(62, 110, 89);
+    color: white;
+    padding: 9px;
+    text-align: center;     
+}
+.row2{
+    display: flex;
+    margin: 30px;                
+}
+.row3{
+    margin: 30px;
+    padding: 10px;
+    background-color:rgb(243, 237, 229) ;               
+}
+.hi{
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.name{
+    display: flex;               
+}
+.na{
+    font-weight: bold;
+}
+.praveen{
+    padding-left: 60px;
+}
+.row4{
+display: flex;                  
+}
+.do{
+background-color:rgb(58, 183, 233) ;
+color: white;
+}
+.co{
+background-color: rgb(161, 16, 24);
+color: white;
+}
+.co1{
+    padding-left: 20px;
+}
+.row5{
+    text-align: center;
+    font-size: 25px;
+}
+.row6{
+    display: flex;
+    margin: 30px;       
+}
+.web{
+    font-weight: bold;
+    text-align: center;
+}
+.tech{
+    font-weight: bold;
+    text-align: center;
+}
+.arc{
+    font-weight: bold;
+    text-align: center;
+} 
+.fit{
+    font-weight: bold;
+    text-align: center;
+} 
+.row6 p{
+    text-align: center;
+}
+.b1{
+    border: 2px solid rgb(243, 223, 223);
+    margin: 10px;
+    background-color: rgb(243, 237, 229);
+    padding: 40px;              
+}
+.row7{
+    margin: 30px;
+    display: flex;   
+    font-weight: bolder;                        
+}
+.exp{
+    padding-left: 570px;
+}
+.nav{
+    display: flex;
+    margin: 30px;              
+}
+.pro{
+padding-left: 15px;
+width: 50%;          
+}
+.it{
+width: 50%;
+padding-right: 15px;
+
+}
+.msc{
+background-color: rgb(243, 237, 229);
+padding: 10px;
+}
+.project{
+background-color: rgb(243, 237, 229);
+padding: 10px;
+}
+.bca{
+background-color: rgb(243, 237, 229);
+padding: 10px;
+}
+.ten{
+background-color: rgb(243, 237, 229);
+padding: 10px;
+}
+.project{
+background-color: rgb(243, 237, 229);
+padding: 10px;
+}
+.year{
+background-color: rgb(243, 237, 229);
+padding: 10px;
+}
+.des{
+background-color: rgb(243, 237, 229);
+padding: 10px;
+}
+.work{
+text-align: center;
+font-size: 25px;
+}
+.nav2{
+background-color:rgb(243, 237, 229) ;
+display: flex;
+flex-wrap: wrap;
+margin: 30px;      
+}
+.nav2 div{
+padding-left: 32px;
+width: 33.3333333%;
+}
+.last{
+background-color: black;
+padding-left: 550px;
+color: white;
+}
+.last1{
+    padding-top: 25px;
+    background-color: rgb(247, 237, 225);
+}
+
+.last img{
+text-align: center;
+padding: 15px 0px 15px 0px;
+}
+.p1{
+    display: flex;
+    justify-content:space-around;
+    
+}
+.p1 a{
+    text-decoration: none;
+}
+.p5{
+    padding-top: 25px;
+    height: 200px;
+    background-color: rgb(247, 237, 225); 
+    
+}
+
+
+
+.s1{
+    display: flex;
+    width: 99%;   
+}
+.s2{
+    width: 50%;
+    padding-left: 40px;
+}
+.s3{
+    width: 50%;
+    padding-left: 40px;
+}
+.s4{
+    text-align: center;   
+    color: rgb(61, 51, 121);
+}
+
+.e1{
+    padding-left: 600px;   
+}
+.e2{
+    height: 450px;
+}
+.e3{
+    padding-top: 25px;
+    background-color: rgb(247, 237, 225);
+}
+.e5{
+    height: 300px;
+    padding-top: 25px;
+    background-color: rgb(247, 237, 225);
+}
+.s5{
+    padding-top: 25px;
+    background-color: rgb(247, 237, 225);
+    height: 450px;
 }
