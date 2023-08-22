@@ -14,7 +14,7 @@ import Templatepage from "./pages/Template";
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter >
           <Routes>
             <Route path="/" element={<Templatepage/>}>
               <Route index element={<Homepage/>} />
